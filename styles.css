@@ -1,3 +1,77 @@
 * {
-    background-color: chocolate;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quadrado1, .quadrado2, .quadrado3 {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(211, 83, 44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.Follow {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    font-size: 15px;
+}
+
+.icones {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.icones-div {
+    display: flex;
+}       
+
+.foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 25px;
+   
+}
+
+h1 {
+    font-size: 30px;
+   
 }
